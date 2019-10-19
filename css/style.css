@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  /* header materials */
+ .header .left{
+     text-align: left;
+     padding-top: 3rem;
+ }
+ .header .right{
+    text-align: right;
+    padding-top: 3rem;
+}
+.header .right a{
+    padding-right: 5px;
+    color: #2f3542;
+}
+.header .right i{
+    font-size: 1.4em;
+}
+.header .right a:hover{
+    color: blue;
+    transition: ease-in 1s;
+}
+
+  /* end of header item  */
+  
+  #navbar {
+    overflow: hidden;
+    background-color: blue!important;
+    box-shadow: 3px 0 5px blue;
+    z-index: 21!important;
+  }
+  #navbar .nav-link{
+      color: #fff;
+      letter-spacing: .1em;
+      font-size: 1em;
+      padding-top: .8rem;
+  }
+  .navbar-brand{
+      color: #fff;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /* carousel */
+  .h-landing-page .carousel-item{
+      height: 60vh;
+  }
+  .h-landing-page .carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.heading h2{
+    padding-top: 4rem;
+    color: blue;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px blue;
+}
+.heading div{
+    
+    background-color: blue;
+    height: .1rem;
+    margin: auto;
+    display: block;
+    width: 7rem;
+}
+
+/* events */
+#h-events{
+    background-color: #f1f2f6;
+}
+#h-events .events-text{
+    padding: 2rem;
+}
+#h-events .events-text .btn-blue{
+    border: 1px solid blue;
+    padding: .5rem 1.5rem;
+    color: blue;
+    margin-top: 1rem;
+    border-radius: 0;
+}
+#h-events .events-text .btn-blue:hover{
+    border: 1px solid blue;
+    background-color: blue;
+    padding: .5rem 1.5rem;
+    color: #fff;
+    transition: ease-in .5s;
+    text-shadow: 2px 2px 3px blue;
+   
+
+}
+/* about */
+#h-about{
+    background: #2f3542;
+    padding: 3rem 0 1rem 0;
+    
+}
+#h-about img{
+    margin: auto;
+    display: block;
+}
+#h-about .events-text{
+    padding: 2rem;
+    color: #fff;
+}
+#h-about .events-text .btn-blue{
+    border: 1px solid blue;
+    padding: .5rem 1.5rem;
+    background-color: blue;
+    margin-top: 1rem;
+    border-radius: 0;
+    color: #fff;
+}
+#h-about .events-text .btn-blue:hover{
+
+    background-color: #fff;
+    padding: .5rem 1.5rem;
+    color: blue;
+    transition: ease-in .5s;
+   border: none;
+
+}
+.heading-a h2{
+    padding-top: 4rem;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #2f3542;
+}
+.heading-a div{
+    
+    background-color: #fff;
+    height: .1rem;
+    margin: auto;
+    display: block;
+    width: 7rem;
+}
+
+/* foundation */
+#foundation{
+    background-color: #f1f2f6;
+}
+#foundation .container{
+    margin-top: 2rem;
+}
+#foundation .carousel-item{
+    height: 60vh;
+}
+#foundation .carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+#foundation .foundation-info{
+    padding-top: 3rem;
+}
+#foundation .foundation-info{
+    padding-top: 3rem;
+}
+#foundation .foundation-info .heading{
+    text-transform: uppercase;
+    font-size: 1.4rem
+}
+
+#foundation .foundation-info .divider{
+    background-color: blue;
+    height: .1rem;
+    display: block;
+    width: 4rem;
+}
+/* accordian */
+.accordion {
+    margin-top: 2rem; /* Add space above accordion */
+}
+.accordion .card {
+    border-radius: 0;
+    border-width: 1px 0 1px 0;
+}
+.accordion .card:first-child {
+    border-top: none;
+}
+.accordion .card .card-header {
+    background: #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+    margin-bottom: -2px;
+    font-family: "Roboto", sans-serif;
+}
+.accordion .card-header:hover {
+    background: blue;
+    transition: ease-in .5s;
+}
+.accordion .card-header h2 span {
+    float: left;
+    margin-top: 10px;
+}
+.accordion .card-header .btn {
+    font-size: 1.04rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    
+}
+.accordion .card-header i {
+    float: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+.accordion .card-header button:hover {
+    color: blue;
+}
+.accordion .card-body {
+    background: #eaeaea;
+    color: #595959;
+}
+.accordion .highlight {
+    color: #fff;
+    background: #202d3c !important;
+}
+/* accordian end  */
+
+#foundation .foundation-info .date-upload{
+    border: 1px solid blue;
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#foundation .foundation-info .date-upload h4{
+    font-weight: bold;
+    color: blue;
+
+}
