@@ -235,17 +235,108 @@
     background: #202d3c !important;
 }
 /* accordian end  */
-
+#foundation{
+    padding-bottom: 4rem;
+}
 #foundation .foundation-info .date-upload{
     border: 1px solid blue;
     margin-top: 2rem;
     padding: .5rem 1rem;
     background-color: white;
     border-radius: 4px;
+    height: 70px;
 }
 
 #foundation .foundation-info .date-upload h4{
     font-weight: bold;
     color: blue;
 
+}
+#foundation .foundation-info .image-upload {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+#foundation .foundation-info .image-upload img{
+    height: 70px;
+    width: 60px;
+    border-radius: 5px;
+    border: .1rem solid blue;
+}
+#foundation .foundation-info .text{
+    margin-top: 2rem;
+    margin-left: .5rem;
+
+}
+
+#foundation .foundation-info .text H5{
+
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0;
+}
+#foundation .foundation-info .text p{
+    font-weight: light;
+    font-size: .8em;
+    margin: 0;
+    color: gray;
+}
+#foundation .foundation-info .text p a{
+    text-decoration: none;
+    color: blue;
+    font-size: .9em;
+}
+#foundation .foundation-info .text a.watch-now{
+    color: blue;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#foundation .foundation-info .see-all a.see-al{
+    padding: .3rem 2rem;
+    background-color: black;
+    color: white;
+    font-size: .9rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+#foundation .foundation-info .see-all a.see-al:hover{
+    background-color: blue;
+
+}
+
+#youtube-map .youtube-text{
+    margin: 4rem 2rem 0 2rem;
+}
+
+#youtube-map .youtube-text h4{
+    margin-bottom: 4rem;
+    font-weight: bold;
+    font-size: 2em;
+    color: blue;
+}
+#youtube-map .youtube-text p{
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.3em;
+}
+#youtube-map .iframe-c{
+    width: 100%;
+}
+
+/* testimonies side */
+
+#testimonies-side{
+    background-color: #f1f2f6;
+}
+
+#testimonies-side .wrap{
+    width: 80%;
+    margin: auto
+}
+
+#testimonies-side .wrap .content{
+    color: gray;
+    font-size: .9em;
+    margin-top: 1rem;
 }
