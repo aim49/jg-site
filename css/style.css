@@ -340,3 +340,125 @@
     font-size: .9em;
     margin-top: 1rem;
 }
+#testimonies-side  .image{
+    height: 130px;
+    width: 130px;
+    margin: auto;
+}
+#testimonies-side  .image img{
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+    border: .2rem solid #2f3542;
+}
+
+#testimonies-side .text-body h3{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue!important;
+}
+
+#testimonies-side .text-body p{
+    font-size: .9rem;
+    color: gray;
+}
+
+#testimonies-side .all-test a{
+    color: white;
+background-color: #000;
+padding: .3rem 2rem;
+transition: all 300ms ease-in-out;
+text-decoration: none;
+margin-top: 1rem;
+}
+
+
+#testimonies-side .all-test a:hover{
+    background-color: blue;
+}
+
+#testimonies-side .c-turn{
+    background-color: white!important;
+    padding: 1.7rem 0;
+    margin-top: 3rem;
+}
+
+#testimonies-side .c-turn .test-detail h4{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#testimonies-side .c-turn .test-detail p{
+    font-size: .9rem;
+    color: rgba(0, 0, 255, 0.646);
+}
+
+#testimonies-side .c-turn .t-btn{
+    text-align: right;
+    margin-top: 1rem;
+}
+#testimonies-side .c-turn .t-btn a{
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .4rem 2.5rem;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+#testimonies-side .c-turn .t-btn a:hover{
+    background-color: #2f3542;
+}
+
+/* footer */
+#footer{
+    background-color:#000;
+    padding-top: 2rem;
+}
+
+#footer .text{
+    color: gray;
+}
+#footer .line{
+    width: 80px;
+    height: 3px;
+    background-color: #ccc;
+    margin-bottom: 1rem;
+}
+#footer .text h4{
+    font-weight: light;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+#footer .text p{
+font-size: .8rem;
+color: #ccc;
+}#footer .text p a{
+    color: rgb(255, 253, 253);
+
+}
+
+#footer .blue-sectin{
+    background-color: blue;
+}
+#footer .blue-sectin  .c-details{
+    color: white;
+    padding-top: .9rem;
+    font-size: .9rem;
+}
+#footer .social-ul {
+    padding: .9rem;
+    text-align: right;
+}
+#footer .social-ul i{
+    color: white;
+    padding-left: .6rem;
+    font-size: 1.4rem;
+}
+
+
+
+
